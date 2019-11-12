@@ -1,7 +1,7 @@
 Discrete-to-Deep Supervised Policy Learning (D2D-SPL) vs. DQN using OpenAI gym's CartPole environment.
 
 Requirements:
-- Python 3
+- Python 3, numpy, Scikit-learn
 - OpenAI Gym
 - PyTorch
 
