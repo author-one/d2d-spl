@@ -19,7 +19,7 @@ solver = 'lbfgs'
 alpha = 0.0001
 
 def create_classifier(trial_no):
-    file = 'results/trainingset' + str(trial_no).zfill(2) + '.txt'
+    file = 'results/d2d_results/trainingset' + str(trial_no).zfill(2) + '.txt'
     pickled_path = 'results/cartpole-classifier' + str(trial_no).zfill(2) + '.p'
     X, y = prepare_data(file, max_records)
     classifier = MLPClassifier(solver=solver, alpha=alpha, random_state=1, max_iter=1_000_000, hidden_layer_sizes=hidden_layer_sizes).fit(X, y)

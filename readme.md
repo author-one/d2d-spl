@@ -12,3 +12,11 @@ Running D2D-SPL
 Running DQN
 - Run cartpole_dqn_train.py
 - Run cartpole_dqn_test.py
+
+Running Double DQN
+- Run cartpole_double_dqn_train.py
+- Run cartpole_dqn_test.py
+
+Running A3C
+- Run cartpole_a3c_train.py
+- Run cartpole_a3c_test.py

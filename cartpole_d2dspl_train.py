@@ -138,7 +138,7 @@ def run_trial(trial_no, env, results_path):
     
 if __name__ == '__main__':
     env = create_cartpole_env()
-    results_path = './results'
+    results_path = 'results/d2d_results'
     if not os.path.exists(results_path):
         os.mkdir(results_path)
     num_trials = 10
